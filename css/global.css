@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: blueviolet;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f1f2;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background: white;
+    border: 1px soilid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(110, 35, 180);
+
+}
+
+.content {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th {
+    background: #ccc;
+    
+}
+
+table th, td {
+    text-align: left;
+    padding: 1px 5px;
+}
+
+table td img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.center {
+    text-align: center;
+}

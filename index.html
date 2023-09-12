@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Minha Loja</h1>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2>Produtos</h2>
+            <span>Lista de produtos da minha loja</span>
+        </div>
+
+        <div class="card">
+            <div class="lineInput">
+                <label for="">Produto</label>
+                <input type="text" name="" id="produto" placeholder="Nome do produto">
+            </div>
+
+            <div class="lineInput">
+                <label for="">Valor</label>
+                <input type="number" name="" id="preco" placeholder="Valor do produto">
+            </div>
+
+            <button onclick="produto.salvar()" id="btn1">Salvar</button>
+            <button onclick="produto.cancelar()">Cancelar</button>
+        </div>
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th class="center">ID</th>
+                    <th>Produto</th>
+                    <th>Valor</th>
+                    <th class="center">Ações</th>
+                <tbody id="tbody">
+
+                </tbody>
+                </thead>
+            </table>
+        </div>
+    </main>
+
+</body>
+
+</html>
